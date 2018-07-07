@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bruno Pinto / Front-End Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:900|Roboto:100,700" rel="stylesheet">
+
+        <style>
+            ::-moz-selection {
+                color: #001e35;
+                background: #fff;
+            }
+
+            ::selection {
+                color: #001e35;
+                background: rgba(252,229,211,0.99);
+            }
+
+            html {
+                height: 100%;
+                font-size: 62.5%;
+            }
+
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: Roboto, sans-serif;
+                font-weight: 100;
+                color: #fce5d3;
+                background: #001e35;
+            }
+
+            main {
+                position: relative;
+                min-height: 100%;
+                overflow: hidden;
+            }
+
+            a {
+                color: inherit;
+            }
+
+            .tagline {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                margin: 0;
+                font-family: Raleway, sans-serif;
+                font-size: 11rem;
+                text-transform: uppercase;
+                line-height: 0.78;
+            }
+
+            .bio {
+                position: absolute;
+                top: 4rem;
+                right: 0;
+                width: 230px;
+                margin: 0 5px 0 0;
+                font-size: 1.9rem;
+                line-height: 1.4;
+            }
+
+            .bio p {
+                margin: 0;
+            }
+
+            .bio p + p {
+                margin-top: 1.6rem;
+            }
+
+            .bio-title {
+                margin: 0;
+                font-size: 7rem;
+                font-weight: 700;
+            }
+
+            .bio-utils {
+                font-size: 1.4rem;
+            }
+
+            .bio-utils a {
+                border-bottom: 1px solid currentColor;
+                color: currentColor;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <p class="tagline">making<br>software<br>more<br>inclusive</p>
+
+            <div class="bio">
+                <h1 aria-label="My name is Bruno Pinto" class="bio-title">B.</h1>
+                <p>
+                    I'm a front-end developer who conveys the importance of approaching accessibility as a default; <br>
+                    Think design systems;<br>Work on something I believe in; Be kind;<br>Learn; Learn some more;<br>Keep on keepin’ on.
+                </p>
+                <p class="bio-utils">
+                    Currently at Farfetch.<br><a href="#">Get resume</a>.  <a href="mailto:bmorosopinto@gmail.com">Get in touch</a>.
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
