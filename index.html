@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bruno Pinto / Front-End Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Muli:200" rel="stylesheet">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="A constant learning, continuously improving front-end developer developer">
+    <meta name="keywords" content="Front-end Developer, Front-End Engineer, Software Engineer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bruno Pinto</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text" rel="stylesheet">
 
     <style>
         ::-moz-selection {
@@ -29,10 +31,9 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            font-family: Muli, sans-serif;
+            font-family: 'Libre Caslon Text', serif;
             font-weight: 200;
             color: #15006d;
-            border: 10px solid #15006d;
             background: #fff;
         }
 
@@ -40,6 +41,9 @@
             position: relative;
             min-height: 100%;
             overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         a {
@@ -47,13 +51,11 @@
         }
 
         .bio {
-            position: absolute;
-            top: 4rem;
-            right: 0;
-            width: 23rem;
-            margin: 0 1.5rem 0 0;
-            font-size: 1.9rem;
-            line-height: 1.4;
+            display: flex;
+            flex-direction: column;
+            max-width: 40rem;
+            font-size: 1.6rem;
+            line-height: 1.6;
         }
 
         .bio p {
@@ -64,18 +66,16 @@
             margin-top: 1.6rem;
         }
 
-        .bio-short {
-            color: #4e586e;
-        }
-
         .bio-title {
             margin: 0;
-            font-size: 7rem;
-            font-weight: 700;
+            font-size: 17rem;
+            line-height: 1;
+            font-weight: 400;
+            text-transform: uppercase;
         }
 
         .bio-utils {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
         }
 
         .bio-utils a {
@@ -91,12 +91,11 @@
         <section class="bio">
             <h1 aria-label="Hey! I'm Bruno. Nice to meet you! 😊" class="bio-title">B.</h1>
             <p class="bio-short">
-                I'm a front-end developer who conveys the importance of approaching accessibility as a default. <br>
-                Think design systems.<br>Work on something I believe in. Be kind.<br>Learn. Learn some more.<br>Keep on
-                keepin’ on.
+                I'm a front-end developer who conveys the importance of approaching accessibility as a default.
             </p>
             <p class="bio-utils">
-                Currently at Pipedrive.<br><a download href="./assets/cv_bruno-pinto_front-end-dev.pdf">Get resume</a>.
+                Currently at <em>Pipedrive</em>.<br><a download href="./assets/cv_bruno-pinto_front-end-dev.pdf">Get
+                    resume</a>.
                 <a href="mailto:bmorosopinto@gmail.com">Get in touch</a>.
             </p>
         </section>
