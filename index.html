@@ -57,6 +57,7 @@
             font-size: 1.6rem;
             line-height: 1.6;
             padding: 3rem;
+            animation: fadeIn 1.25s;
         }
 
         .bio p {
@@ -83,6 +84,16 @@
             border-bottom: 0.1rem solid currentColor;
             color: currentColor;
             text-decoration: none;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
     </style>
 </head>
