@@ -57,7 +57,7 @@
             font-size: 1.6rem;
             line-height: 1.6;
             padding: 3rem;
-            animation: fadeIn 1.25s;
+            animation: 1.5s ease 0s normal forwards 1 fadeIn;
         }
 
         .bio p {
@@ -87,11 +87,15 @@
         }
 
         @keyframes fadeIn {
-            from {
+            0% {
                 opacity: 0;
             }
 
-            to {
+            25% {
+                opacity: 0;
+            }
+
+            100% {
                 opacity: 1;
             }
         }
